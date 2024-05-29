@@ -2,6 +2,7 @@ import Header from './Components/Nav'
 import Body from './Components/Bbody'
 import './App.css'
 import Bbody2 from './Components/Bbody2'
+import Footer from './Components/Ffooter'
 import { useState } from 'react'
 
 function App() {
@@ -26,6 +27,7 @@ n.push(num)
   <Header total={n}/>
   <Body/>
   <Bbody2 count={count}/>
+  <Footer/>
    </>
   )
 }
