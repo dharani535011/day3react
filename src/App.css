@@ -1,0 +1,21 @@
+#body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+  background-color: rgb(33,37,41);
+  h3{
+    color: rgb(137,119,100);
+  }
+  h1{
+    color: white;
+  }
+}
+#box img{
+  height: 250px;
+}
+#rate{
+  text-align: center;
+}
